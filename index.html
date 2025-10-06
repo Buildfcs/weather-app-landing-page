@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css" />
+  
+  <title>Frontend Mentor | Weather app</title>
+
+</head>
+<body>
+  <main class="container">
+    <div class="left">
+      <div>
+      <img src="./assets/images/logo.svg" />
+      </div>
+      <div class="right">
+      <img src="./assets/images/icon-units.svg" />
+      <p>Units</p>
+      <img src="./assets/images/icon-dropdown.svg" />
+      </div>
+    </div>
+    <header>
+     <div class="center">
+      <p> How's the sky looking today?</p>
+      <input type="text" placeholder="Search for a place..." />   
+      <button>Search</button>
+     </div>
+    </header>
+    <div class="grid-container">
+      <div class="main-info">
+        
+        <img class="first" src="./assets/images/bg-today-large.svg" />
+        
+        <div class="content">
+          <div class="location">
+           <h2>Lagos, Nigeria</h2>
+           <p>Monday, Oct 6, 2025</p>
+          </div>
+
+          <div class="temp">
+           <img class="img" src="./assets/images/icon-sunny.webp" />
+           <p class="degree">20°</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="second-row">
+        <div class="row">
+         <p>Feels like</p>
+         <span>18°</span>
+        </div>
+        <div class="row">
+         <p>Humidity</p>
+         <span>46%</span>
+        </div>
+        <div class="row">
+         <p>Wind</p>
+         <span>14 km/h</span>
+        </div>
+        <div class="row">
+         <p>Precipitation</p>
+         <span>0 mm</span>
+         </div>
+      </div> 
+ 
+      <div class="daily-forecast">
+       <h3>Daily Forecast</h3> 
+       
+      <div class="days">
+      <div class="cards">
+        <p>Tue</p>
+        <img class="img" src="./assets/images/icon-rain.webp" alt="rain" />
+        <div class="tempe">
+         <span>20°</span>
+         <span> 14°</span>
+        </div>
+      </div>
+      <div class="cards">
+        <p>Wed</p> 
+        <img class="img" src="./assets/images/icon-drizzle.webp" />
+        <div class="tempe">
+         <span>24°</span>
+         <span> 10°</span> 
+         </div>
+      </div>
+      <div class="cards">
+        <p>Thu</p>
+        <img class="img" src="./assets/images/icon-sunny.webp" />
+        <div class="tempe">
+         <span>20°</span>
+         <span>10°</span>
+        </div>
+      </div>
+      <div class="cards">
+       <p>Fri</p>
+       <img class="img" src="./assets/images/icon-partly-cloudy.webp"/>
+       <div class="tempe"> 
+        <span>20°</span>
+        <span>14°</span>
+        </div>
+      </div>
+      <div class="cards">
+       <p>Sat</p> 
+       <img class="img" src="./assets/images/icon-storm.webp" />
+       <div class="tempe">
+        <span>20°</span>
+        <span>10°</span>
+       </div>
+      </div>
+      <div class="cards">
+       <p>Sun</p>
+       <img class="img" src="./assets/images/icon-snow.webp" /> 
+       <div class="tempe">
+        <span>20°</span>
+        <span>14°</span>
+        </div>
+      </div>
+      <div class="cards">
+       <p>Mon</p>
+       <img class="img" src="./assets/images/icon-fog.webp" />
+        <div class="tempe">
+         <span>20°</span>
+         <span>20°</span>
+        </div>
+      </div> 
+     </div> 
+    </div>
+
+   <div class="hourly-card">
+    <div class="hourly-header">
+      <p class="hour">Hourly forecast</p>
+      <div class="hourly-date">
+        <p>Tuesday</p>
+        <img class="drop" src="./assets/images/icon-dropdown.svg" />
+      </div>
+    </div>
+    <div class="hourly-flex">
+      <div class="time">
+       <img class="img" src="./assets/images/icon-overcast.webp" />
+       <p>3 PM</p>
+       <P class="end">20°</P>
+      </div>
+      <div class="time">
+        <img class="img" src="./assets/images/icon-partly-cloudy.webp" />
+       <p>4 PM</p>
+       <P class="end">20°</P>
+      </div>
+      <div class="time">
+       <img class="img" src="./assets/images/icon-sunny.webp" /> 
+       <p>5 PM</p> 
+       <p class="end">20°</p>
+      </div>
+      <div class="time">
+       <img class="img" src="./assets/images/icon-overcast.webp" />
+       <p>6 PM</p>
+       <p class="end">19°</p>
+      </div>
+      <div class="time">
+       <img class="img" src="./assets/images/icon-snow.webp" />
+       <p>7 PM</p>
+       <P class="end">18°</P>
+      </div>
+      <div class="time">
+       <img class="img" src="./assets/images/icon-fog.webp" />
+       <p>8 PM</p>
+       <p class="end">18°</p>
+      </div>
+      <div class="time">
+       <img class="img" src="./assets/images/icon-fog.webp" />
+       <p>9 PM</p>
+       <p class="end">17°</p>
+      </div>
+      <div class="time">
+        <img class="img" src="./assets/images/icon-overcast.webp" /> 
+         <p>10 PM</p>
+         <p class="end">17°</p>
+      </div>
+
+     </div>
+
+
+     </div>
+  </div>
+  </main>
+</body>
+</html>
